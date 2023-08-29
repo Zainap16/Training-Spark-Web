@@ -1,0 +1,65 @@
+.nav-bar-ul{
+
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0px;
+}
+
+.background{
+    background-color: bisque;
+}
+
+.box-model{
+
+    font-size: x-large;
+    color: brown;
+    width: 200px;
+    height: 20px;
+
+    border: 3px solid burlywood;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.cascade{
+
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(205, 111, 111);
+   
+}
+
+td, th{
+    border-bottom: 2px solid rgb(205, 111, 111);
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 300px;
+}
+
+td{
+    text-align: center;
+}
+
+h2{
+    color:rgb(205, 111, 111);
+    text-align: center;
+}
+
+/* position: sticky/absolute/fixed */
+/* CSS Units */
+.img-size-1{
+    width: 500px;
+    height: 400px;
+    padding-left: 350px;
+}
