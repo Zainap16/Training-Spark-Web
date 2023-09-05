@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+.container{
+    border: 6px solid black;
+    display: flex; 
+    /* flex-direction: row-reverse;
+    flex-wrap:wrap ;
+     */
+
+     /* flex-flow: row-reverse wrap; */
+     /* flex-flow:row nonwrap; -->> default*/
+     /* justify-content: center; */
+
+
+}
+
+.flex-item{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /* flex-grow */
+    /* flex-shrink */
+    /* flex-basis */
+
+    /* in that above order, top to botton, using flex */
+}
+
+.item-1{
+    background-color: blue;
+}
+
+.item-2{
+    background-color: rgb(147, 147, 243);
+}
+
+.item-3{
+    background-color: rgb(0, 255, 195);
+    order: 1;
+    /* all items are order by 0 by default */
+    /* since 1 is bigger than all of the items, it will appear at the end */
+}
+
+.item-4{
+    background-color: rgb(218, 140, 4);
+   
+    /* flex-grow default is 0 */
+    flex-grow: 1;
+}
+
+.item-5{
+    background-color: rgb(255, 0, 166);
+    flex-grow: 1;
+}
+
+.item-6{
+    background-color: rgb(233, 151, 208);
+}
+
+.item-7{
+    background-color: rgb(46, 77, 40);
+    order: 3;
+    /* takes up extra space */
+    /* if same number then, takes up evenly growth */
+}
+
+.item-8{
+    background-color: rgb(134, 16, 224);
+    /* flex-shrink is 1 by default */
+    flex-shrink: 4;
+}
+
+.item-9{
+    background-color: rgb(219, 234, 19);
+}
+
+
+
