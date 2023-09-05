@@ -33,3 +33,19 @@ li a:hover{
 .item-list{
     padding: 15px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-item{
+ width: 200px;
+ margin: 5px;
+}
+
+img {
+    width: 50%;
+}
+
