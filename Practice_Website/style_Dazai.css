@@ -49,11 +49,12 @@ img {
     width: 50%;
 }
 
-.footer-header{
+.footer-header, .footer-li{
     text-align: center;
 }
 
-.footer-li{
-    text-align: center;
+.footer-menu{
+    background-color: rgb(96, 54, 29);
+    color: burlywood;
 }
 
